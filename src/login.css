@@ -1,0 +1,154 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    font-size: 90px;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(228, 226, 119), rgb(61, 5, 63));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 16px;
+    color: rgb(237, 253, 236);
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 650;
+    font-style: normal;
+    margin-bottom: 60px;
+    text-align: center;
+    /* Adicionando esta propriedade para centralizar o texto */
+}
+
+.hind-siliguri-regular {
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.aparecer {
+    opacity: 0;
+    /* Defina a escala inicial como 0.5 para que o elemento não seja visível */
+    transform: scale(0.1);
+    /* Animação de entrada */
+    animation: surja 6s ease forwards, girar none linear alternate;
+    /* Defina o ponto de origem da transformação no centro */
+    transform-origin: center;
+}
+
+/* Animação de entrada SURJINDO NA TELA*/
+@keyframes surja {
+
+    /* não é uma função, é uma REGRA que define a animação */
+    from {
+        opacity: 0.4;
+        /* Opacidade inicial */
+        transform: scale(0.8);
+        /* Escala inicial */
+    }
+
+    to {
+        opacity: 1;
+        /* Opacidade final */
+        transform: scale(0.9);
+        /* Escala final */
+    }
+}
+
+.login-form {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#nameInput {
+    color: rgb(3, 10, 0);
+    background-color: #f1f3dc;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 650;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 16px;
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+#nameInput:hover {
+    background-color: #ddd;
+}
+
+#nameButton {
+    background-color: rgb(47, 9, 82);
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    max-width: 200px;
+}
+
+#nameButton:disabled {
+    background-color: #5f645e;
+    color: #f3eded;
+    cursor: auto;
+}
+
+footer {
+    background-color: #0e021d;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    text-align: center;
+    position: fixed;
+    /* Fixa o footer na parte inferior da janela do navegador */
+    bottom: 0;
+    /* Alinha o footer na parte inferior */
+    width: 100%;
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}

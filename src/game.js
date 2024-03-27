@@ -19,7 +19,7 @@ const checkEndGame = () => {
     const disableCards = document.querySelectorAll('.disable-card'); // pegando TODAS as cartas desabilitadas
 
     if (disableCards.length === 20) { // pegando todo o array e verificando 
-  //      clearInterval(this.loop); //vai limpar o loop com essa função clearInterval
+        //      clearInterval(this.loop); //vai limpar o loop com essa função clearInterval
         alert(`Parabénssssssss, ${spanPlayer.innertHTML}! Seu tempo foi: ${timer.innerHTML}`); //verificando o tamanho
     }
 }
@@ -117,21 +117,24 @@ const loadGame = () => {
 
 
 
-/* const startTimer = () => {
+const startTimer = () => {
 
     this.loop = setInterval(() => { //ESTUDAR SOBRE THISSSS. Tudo dentro do this tá salvo, tá amarmazendo o setinterval
         const currentTime = +timer.innerHTML; //o + convertido para número ou assim tbm rola Number(timer.innerHTML)
         timer.innerHTML = currentTime + 1;
     }, 1000);
 
-} */
+}
 
 
 
 
 
 window.onload = () => { //executar alguma coisa quando a janela for carregada
-    spanPlayer.innerHTML = localStorage.getItem('player'); //valor salvo no localStorage
+    spanPlayer.innerHTML = localStorage.getItem('player');
+    /* criei um setItem no login e agora tou pegando = getItem
+    posso colocar qlqr coisa nesse atributo html */
+
     //startTimer();
     loadGame(); // embaralha / função que carrega o jogo
 }

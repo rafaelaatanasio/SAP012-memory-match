@@ -66,7 +66,7 @@ TELA DO JOGO
 - Adicionar botão de reiniciar o jogo
 - Adicionar um temporizador
 - Adicionar um ranking de jogadores
-- 
+  
 ## 7. Referências
 
  - [Criando login](https://www.youtube.com/watch?v=NV88N1r2Qkg)

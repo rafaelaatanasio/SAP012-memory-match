@@ -9,7 +9,7 @@
 - [5. Design da Interface de Usuário](#5-design-da-interface-de-usuario)
 - [6. Lista de Melhorias](#6-lista-de-melhorias)
 - [7. Referências](#7-referencias)
-- [8. Técnologias Utilizadas](#8-tecnologias-utilizadas)
+- [8. Tecnologias Utilizadas](#8-tecnologias-utilizadas)
 - [9. Links](#9-links)
 
 ---
@@ -74,7 +74,7 @@ TELA DO JOGO
  - [Criando um README](https://readme.so/pt/editor)
  - [Fundamentos do Design](https://www.youtube.com/watch?v=8qTKYbFdOTE )
 
-## 8. Técnologias utilizadas
+## 8. Tecnologias utilizadas
 
 - HTML
 - CSS

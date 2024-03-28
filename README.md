@@ -10,13 +10,13 @@
 
 ## 1. Preâmbulo
 
-O jogo [_Memory Match_](<[https://en.wikipedia.org/wiki/Concentration_(card_game)](https://github.com/rafaelaatanasio/SAP012-memory-match/assets/144054244/f1ef8a40-b622-4027-9076-05876794e3d0)>),
+O jogo [_Memory Match_]([https://en.wikipedia.org/wiki/Concentration_(card_game)](https://github.com/rafaelaatanasio/SAP012-memory-match/assets/144054244/f1ef8a40-b622-4027-9076-05876794e3d0)),
 também conhecido como _Concentration_, _Match Match_, _Match Up_, _Memory_,
 entre outros, é um jogo de cartas em que todas as cartas são postas viradas
 pra baixo sobre a superficie, virando duas cartas em cada turno. O
 objetivo do jogo é encontrar pares de cartas iguais.
 
-![Concentration (card game)](https://user-images.githubusercontent.com/110297/135919005-66aefadb-c462-49e2-bf10-2374f2e47688.png)
+![Concentration (card game)]([https://user-images.githubusercontent.com/110297/135919005-66aefadb-c462-49e2-bf10-2374f2e47688.png](https://github.com/rafaelaatanasio/SAP012-memory-match/assets/144054244/f1ef8a40-b622-4027-9076-05876794e3d0))
 
 
 # Memory Match

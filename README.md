@@ -52,12 +52,12 @@ Em um jogo da memória inspirado na série Midnight Gospel, os jogadores se aven
 
 ## 5. Design da Interface de Usuário (Protótipo de Alta Fidelidade)
 
-TELA DE LOGIN
+Tela de login
 
 ![image](https://github.com/rafaelaatanasio/SAP012-memory-match/assets/144054244/5733fc02-966b-40c9-9de8-24d9d2341174)
 
 
-TELA DO JOGO
+Tela do jogo
 
 ![image](https://github.com/rafaelaatanasio/SAP012-memory-match/assets/144054244/94f097b4-cf26-4411-a673-2869f4972490)
 

@@ -13,6 +13,7 @@
 - [9. Links](#9-links)
 
 ---
+# Memory Match
 
 ## 1. Preâmbulo
 
@@ -25,21 +26,15 @@ objetivo do jogo é encontrar pares de cartas iguais.
 ![Concentration (card game)](https://github.com/rafaelaatanasio/SAP012-memory-match/assets/144054244/7071423d-1910-4078-b258-cd83f6d08afe)
 
 
-# Memory Match
-
-O jogo Memory Match, também conhecido como Concentration, Match Match, Match Up, Memory, entre outros, é um jogo de cartas em que todas as cartas são postas viradas pra baixo sobre a superficie, virando duas cartas em cada turno. O objetivo do jogo é encontrar pares de cartas iguais.
-
-
 ## 2. Resumo do projeto
 
-Neste projeto será construído uma versão _web_ do jogo _Memory Match_, em que uma jogadora possa jogar sozinha no navegador.
+Neste projeto será construído uma versão _web_ do jogo _Memory Match_, em que um jogador possa jogar sozinho no navegador.
 
-O objetivo principal deste projeto é aprender a desenhar e construir uma interface web baseada em data e interação com a usuária.
-
+O objetivo principal deste projeto é aprender a desenhar e construir uma interface web baseada em data e interação com o usuário.
 
 ## 3. Recursos principais
 
-The Midnight Memory : O jogo apresenta 20 cards virados para baixo, revelando, ao clicar, a imagem detalhada dos personagens baseada na serie The Midnight Gospel. O usuário deve encontrar o par para cada personagem.
+The Midnight Memory : O jogo apresenta 20 cards virados para baixo, revelando, ao clicar, a imagem detalhada dos personagens baseada na série The Midnight Gospel. O usuário deve encontrar o par para cada personagem.
 
 Interatividade: Permite que o usuário aprenda de forma divertida e interativa, associando suas imagens aos seus persongens favoritos da série.
 
@@ -58,12 +53,12 @@ Em um jogo da memória inspirado na série Midnight Gospel, os jogadores se aven
 
 ## 5. Design da Interface de Usuário (Protótipo de Alta Fidelidade)
 
-Tela de login
+#Tela de login
 
 ![image](https://github.com/rafaelaatanasio/SAP012-memory-match/assets/144054244/5733fc02-966b-40c9-9de8-24d9d2341174)
 
 
-Tela do jogo
+#Tela do jogo
 
 ![image](https://github.com/rafaelaatanasio/SAP012-memory-match/assets/144054244/94f097b4-cf26-4411-a673-2869f4972490)
 

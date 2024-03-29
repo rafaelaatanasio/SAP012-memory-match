@@ -40,11 +40,17 @@ O objetivo principal deste projeto é aprender a desenhar e construir uma interf
 ## 3. Recursos principais
 
 The Midnight Memory : O jogo apresenta 20 cards virados para baixo, revelando, ao clicar, a imagem detalhada dos personagens baseada na serie The Midnight Gospel. O usuário deve encontrar o par para cada personagem.
+
 Interatividade: Permite que o usuário aprenda de forma divertida e interativa, associando suas imagens aos seus persongens favoritos da série.
+
 Feedback Visual: Oferece feedback visual imediato ao virar os cards, facilitando a identificação e memorização.
+
 Design Colorido e Atraente: Apresenta um design atraente e colorido, adequado ao público adulto e adolescente fãs da série ou não.
+
 Compatibilidade com Dispositivos Móveis: Totalmente responsivo, garantindo uma experiência de jogo consistente em dispositivos móveis e desktops.
+
 Fácil de Jogar: Interface intuitiva e simples.
+
 
 ## 4. Histórias de Usuário
 

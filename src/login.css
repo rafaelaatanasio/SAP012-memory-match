@@ -152,3 +152,43 @@ footer {
 .social-links a:hover {
     text-decoration: underline;
 }
+
+@media (min-width: 700px) {
+    body {
+        background-image: url(img/background.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 90px;
+        background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(228, 226, 119), rgb(61, 5, 63));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        font-size: 16px;
+        color: rgb(237, 253, 236);
+        font-family: "Hind Siliguri", sans-serif;
+        font-weight: 650;
+        font-style: normal;
+        margin-bottom: 60px;
+        text-align: center;
+        /* Adicionando esta propriedade para centralizar o texto */
+    }
+
+    .login-form {
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

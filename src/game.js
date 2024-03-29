@@ -1,7 +1,7 @@
 
 const grid = document.querySelector('.grid');
 const spanPlayer = document.querySelector('.player');
-const timer = document.querySelector('.timer');
+//const timer = document.querySelector('.timer');
 
 const characters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']; //array literal
 
@@ -14,8 +14,8 @@ const checkEndGame = () => {
     const disableCards = document.querySelectorAll('.disable-card'); // pegando TODAS as cartas desabilitadas
 
     if (disableCards.length === 20) { // pegando todo o array e verificando 
-        clearInterval(this.loop); // vai parar/limpar o loop com essa função clearInterval, peguei do startTimer
-        alert(`Parabénssssssss, ${spanPlayer.innertHTML}! Seu tempo foi: ${timer.innerHTML}`);
+        //  clearInterval(this.loop); // vai parar/limpar o loop com essa função clearInterval, peguei do startTimer
+        alert(`Parabéns, você venceu!`);
     }
 }
 
@@ -104,21 +104,21 @@ const loadGame = () => {
     });
 }
 
-// CRONOMETRO
-const startTimer = () => {
+// CRONÔMETRO
+//const startTimer = () => {
 
-    this.loop = setInterval(() => { // A cada segundo vai somando um valor. Inseri o loop do setInterval dentro do this pra usar em outro lugar
-        const currentTime = +timer.innerHTML; // tempo atual. timer.innerHTML é o tempo que inseri no html. O + converte a string em número
-        timer.innerHTML = currentTime + 1; // tempo atual + 1
-    }, 1000);
-}
+//  this.loop = setInterval(() => { // A cada segundo vai somando um valor. Inseri o loop do setInterval dentro do this pra usar em outro lugar
+//    const currentTime = +timer.innerHTML; // tempo atual. timer.innerHTML é o tempo que inseri no html. O + converte a string em número
+//      timer.innerHTML = currentTime + 1; // tempo atual + 1
+//  }, 1000);
+//}
 
 // EXECUTA ALGUMA COISA QUANDO A JANELA FOR CARREGADA
-window.onload = () => { 
+window.onload = () => {
     spanPlayer.innerHTML = localStorage.getItem('player');
     /* criei um setItem no login e agora tou pegando = getItem
     posso colocar qlqr coisa nesse atributo html */
 
-    startTimer(); // inicia o tempo quando carrega o jogo
+    //  startTimer(); // inicia o tempo quando carrega o jogo // VERIFICAR O ERRO DESSA LINHA
     loadGame(); // embaralha / função que carrega o jogo
 }

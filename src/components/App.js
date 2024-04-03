@@ -12,7 +12,6 @@
 //   .then(resp => resp.json())
 //   .then(console.log)
 //   .catch(console.error);
-//
 
 const App = () => {
   const el = document.createElement('div');
@@ -63,12 +62,7 @@ const handleSubmit = (event) => {
 nomeInput.addEventListener('input', validateInput);
 form.addEventListener('submit', handleSubmit); // função handleSubmit, salvar formulário
 
-
   return el;
 };
-
-
-
-
 
 export default App;
